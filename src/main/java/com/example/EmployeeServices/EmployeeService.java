@@ -10,9 +10,16 @@ import com.example.Employee.Employee;
 @Service
 public class EmployeeService {
 	private List<Employee> Employees = new ArrayList<>(Arrays.asList(
-			new Employee("1","Core java","Java description"),
-			new Employee("2","DevOps","DevOps description"),
-			new Employee("3","DSA","DSA description")
+			new Employee("1","Shefali","10000"),
+			new Employee("2","rohit","20000"),
+			new Employee("3","Dinesh","30000"),
+			new Employee("4","Mohan","40000"),
+			new Employee("5","Sakshi","50000"),
+			new Employee("6","Radha","60000"),
+			new Employee("7","deepak","70000"),
+			new Employee("8","anju","80000"),
+			new Employee("9","anamika","90000"),
+			new Employee("10","sanjay","100000")
 			));
 	
 	public List<Employee> getAllEmployees()
